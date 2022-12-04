@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2729DA60293D458A00A848DC /* FrisbeeGolfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA5F293D458A00A848DC /* FrisbeeGolfApp.swift */; };
+		2729DA62293D458A00A848DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA61293D458A00A848DC /* ContentView.swift */; };
+		2729DA64293D458B00A848DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2729DA63293D458B00A848DC /* Assets.xcassets */; };
+		2729DA68293D458B00A848DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2729DA67293D458B00A848DC /* Preview Assets.xcassets */; };
+		2729DA72293D458B00A848DC /* FrisbeeGolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA71293D458B00A848DC /* FrisbeeGolfTests.swift */; };
+		2729DA7C293D458B00A848DC /* FrisbeeGolfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA7B293D458B00A848DC /* FrisbeeGolfUITests.swift */; };
+		2729DA7E293D458B00A848DC /* FrisbeeGolfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA7D293D458B00A848DC /* FrisbeeGolfUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2729DA6E293D458B00A848DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2729DA54293D458A00A848DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2729DA5B293D458A00A848DC;
+			remoteInfo = FrisbeeGolf;
+		};
+		2729DA78293D458B00A848DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2729DA54293D458A00A848DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2729DA5B293D458A00A848DC;
+			remoteInfo = FrisbeeGolf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2729DA5C293D458A00A848DC /* FrisbeeGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrisbeeGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2729DA5F293D458A00A848DC /* FrisbeeGolfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrisbeeGolfApp.swift; sourceTree = "<group>"; };
+		2729DA61293D458A00A848DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2729DA63293D458B00A848DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2729DA65293D458B00A848DC /* FrisbeeGolf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FrisbeeGolf.entitlements; sourceTree = "<group>"; };
+		2729DA67293D458B00A848DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2729DA6D293D458B00A848DC /* FrisbeeGolfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrisbeeGolfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2729DA71293D458B00A848DC /* FrisbeeGolfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrisbeeGolfTests.swift; sourceTree = "<group>"; };
+		2729DA77293D458B00A848DC /* FrisbeeGolfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrisbeeGolfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2729DA7B293D458B00A848DC /* FrisbeeGolfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrisbeeGolfUITests.swift; sourceTree = "<group>"; };
+		2729DA7D293D458B00A848DC /* FrisbeeGolfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrisbeeGolfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2729DA59293D458A00A848DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2729DA6A293D458B00A848DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2729DA74293D458B00A848DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2729DA53293D458A00A848DC = {
+			isa = PBXGroup;
+			children = (
+				2729DA5E293D458A00A848DC /* FrisbeeGolf */,
+				2729DA70293D458B00A848DC /* FrisbeeGolfTests */,
+				2729DA7A293D458B00A848DC /* FrisbeeGolfUITests */,
+				2729DA5D293D458A00A848DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2729DA5D293D458A00A848DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2729DA5C293D458A00A848DC /* FrisbeeGolf.app */,
+				2729DA6D293D458B00A848DC /* FrisbeeGolfTests.xctest */,
+				2729DA77293D458B00A848DC /* FrisbeeGolfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2729DA5E293D458A00A848DC /* FrisbeeGolf */ = {
+			isa = PBXGroup;
+			children = (
+				2729DA5F293D458A00A848DC /* FrisbeeGolfApp.swift */,
+				2729DA61293D458A00A848DC /* ContentView.swift */,
+				2729DA63293D458B00A848DC /* Assets.xcassets */,
+				2729DA65293D458B00A848DC /* FrisbeeGolf.entitlements */,
+				2729DA66293D458B00A848DC /* Preview Content */,
+			);
+			path = FrisbeeGolf;
+			sourceTree = "<group>";
+		};
+		2729DA66293D458B00A848DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2729DA67293D458B00A848DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2729DA70293D458B00A848DC /* FrisbeeGolfTests */ = {
+			isa = PBXGroup;
+			children = (
+				2729DA71293D458B00A848DC /* FrisbeeGolfTests.swift */,
+			);
+			path = FrisbeeGolfTests;
+			sourceTree = "<group>";
+		};
+		2729DA7A293D458B00A848DC /* FrisbeeGolfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2729DA7B293D458B00A848DC /* FrisbeeGolfUITests.swift */,
+				2729DA7D293D458B00A848DC /* FrisbeeGolfUITestsLaunchTests.swift */,
+			);
+			path = FrisbeeGolfUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2729DA5B293D458A00A848DC /* FrisbeeGolf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2729DA81293D458B00A848DC /* Build configuration list for PBXNativeTarget "FrisbeeGolf" */;
+			buildPhases = (
+				2729DA58293D458A00A848DC /* Sources */,
+				2729DA59293D458A00A848DC /* Frameworks */,
+				2729DA5A293D458A00A848DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrisbeeGolf;
+			productName = FrisbeeGolf;
+			productReference = 2729DA5C293D458A00A848DC /* FrisbeeGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2729DA6C293D458B00A848DC /* FrisbeeGolfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2729DA84293D458B00A848DC /* Build configuration list for PBXNativeTarget "FrisbeeGolfTests" */;
+			buildPhases = (
+				2729DA69293D458B00A848DC /* Sources */,
+				2729DA6A293D458B00A848DC /* Frameworks */,
+				2729DA6B293D458B00A848DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2729DA6F293D458B00A848DC /* PBXTargetDependency */,
+			);
+			name = FrisbeeGolfTests;
+			productName = FrisbeeGolfTests;
+			productReference = 2729DA6D293D458B00A848DC /* FrisbeeGolfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2729DA76293D458B00A848DC /* FrisbeeGolfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2729DA87293D458B00A848DC /* Build configuration list for PBXNativeTarget "FrisbeeGolfUITests" */;
+			buildPhases = (
+				2729DA73293D458B00A848DC /* Sources */,
+				2729DA74293D458B00A848DC /* Frameworks */,
+				2729DA75293D458B00A848DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2729DA79293D458B00A848DC /* PBXTargetDependency */,
+			);
+			name = FrisbeeGolfUITests;
+			productName = FrisbeeGolfUITests;
+			productReference = 2729DA77293D458B00A848DC /* FrisbeeGolfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2729DA54293D458A00A848DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2729DA5B293D458A00A848DC = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2729DA6C293D458B00A848DC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2729DA5B293D458A00A848DC;
+					};
+					2729DA76293D458B00A848DC = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2729DA5B293D458A00A848DC;
+					};
+				};
+			};
+			buildConfigurationList = 2729DA57293D458A00A848DC /* Build configuration list for PBXProject "FrisbeeGolf" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2729DA53293D458A00A848DC;
+			productRefGroup = 2729DA5D293D458A00A848DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2729DA5B293D458A00A848DC /* FrisbeeGolf */,
+				2729DA6C293D458B00A848DC /* FrisbeeGolfTests */,
+				2729DA76293D458B00A848DC /* FrisbeeGolfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2729DA5A293D458A00A848DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2729DA68293D458B00A848DC /* Preview Assets.xcassets in Resources */,
+				2729DA64293D458B00A848DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2729DA6B293D458B00A848DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2729DA75293D458B00A848DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2729DA58293D458A00A848DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2729DA62293D458A00A848DC /* ContentView.swift in Sources */,
+				2729DA60293D458A00A848DC /* FrisbeeGolfApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2729DA69293D458B00A848DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2729DA72293D458B00A848DC /* FrisbeeGolfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2729DA73293D458B00A848DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2729DA7C293D458B00A848DC /* FrisbeeGolfUITests.swift in Sources */,
+				2729DA7E293D458B00A848DC /* FrisbeeGolfUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2729DA6F293D458B00A848DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2729DA5B293D458A00A848DC /* FrisbeeGolf */;
+			targetProxy = 2729DA6E293D458B00A848DC /* PBXContainerItemProxy */;
+		};
+		2729DA79293D458B00A848DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2729DA5B293D458A00A848DC /* FrisbeeGolf */;
+			targetProxy = 2729DA78293D458B00A848DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2729DA7F293D458B00A848DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2729DA80293D458B00A848DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2729DA82293D458B00A848DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrisbeeGolf/FrisbeeGolf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FrisbeeGolf/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pezaris.FrisbeeGolf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2729DA83293D458B00A848DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FrisbeeGolf/FrisbeeGolf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FrisbeeGolf/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pezaris.FrisbeeGolf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2729DA85293D458B00A848DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pezaris.FrisbeeGolfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrisbeeGolf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FrisbeeGolf";
+			};
+			name = Debug;
+		};
+		2729DA86293D458B00A848DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pezaris.FrisbeeGolfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrisbeeGolf.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FrisbeeGolf";
+			};
+			name = Release;
+		};
+		2729DA88293D458B00A848DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pezaris.FrisbeeGolfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrisbeeGolf;
+			};
+			name = Debug;
+		};
+		2729DA89293D458B00A848DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pezaris.FrisbeeGolfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrisbeeGolf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2729DA57293D458A00A848DC /* Build configuration list for PBXProject "FrisbeeGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2729DA7F293D458B00A848DC /* Debug */,
+				2729DA80293D458B00A848DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2729DA81293D458B00A848DC /* Build configuration list for PBXNativeTarget "FrisbeeGolf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2729DA82293D458B00A848DC /* Debug */,
+				2729DA83293D458B00A848DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2729DA84293D458B00A848DC /* Build configuration list for PBXNativeTarget "FrisbeeGolfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2729DA85293D458B00A848DC /* Debug */,
+				2729DA86293D458B00A848DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2729DA87293D458B00A848DC /* Build configuration list for PBXNativeTarget "FrisbeeGolfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2729DA88293D458B00A848DC /* Debug */,
+				2729DA89293D458B00A848DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2729DA54293D458A00A848DC /* Project object */;
+}
