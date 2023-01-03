@@ -14,6 +14,32 @@
 		2729DA72293D458B00A848DC /* FrisbeeGolfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA71293D458B00A848DC /* FrisbeeGolfTests.swift */; };
 		2729DA7C293D458B00A848DC /* FrisbeeGolfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA7B293D458B00A848DC /* FrisbeeGolfUITests.swift */; };
 		2729DA7E293D458B00A848DC /* FrisbeeGolfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA7D293D458B00A848DC /* FrisbeeGolfUITestsLaunchTests.swift */; };
+		2729DA8F293D474E00A848DC /* CurrentScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA8E293D474E00A848DC /* CurrentScoreViewModel.swift */; };
+		2729DA91293D4CE000A848DC /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA90293D4CE000A848DC /* ScoresView.swift */; };
+		2729DA93293D517F00A848DC /* ScoresRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA92293D517F00A848DC /* ScoresRowView.swift */; };
+		2729DA96293D51EF00A848DC /* HoleScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA95293D51EF00A848DC /* HoleScoreModel.swift */; };
+		2729DA98293D747D00A848DC /* SaveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA97293D747D00A848DC /* SaveData.swift */; };
+		2729DA9A293FA80300A848DC /* GameScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA99293FA80300A848DC /* GameScoreModel.swift */; };
+		2729DA9C293FADFB00A848DC /* GameScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA9B293FADFB00A848DC /* GameScoreView.swift */; };
+		2729DAA0293FAFF200A848DC /* GamePromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DA9F293FAFF200A848DC /* GamePromptView.swift */; };
+		2729DAA2293FB12C00A848DC /* PreviousGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DAA1293FB12C00A848DC /* PreviousGameView.swift */; };
+		2729DAA5293FB20100A848DC /* PreviousGamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DAA4293FB20100A848DC /* PreviousGamesViewModel.swift */; };
+		2729DAA8293FB37300A848DC /* GamesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DAA7293FB37300A848DC /* GamesListView.swift */; };
+		2729DAAB293FB3B000A848DC /* GameRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729DAAA293FB3B000A848DC /* GameRowView.swift */; };
+		2729DAB1293FF60D00A848DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2729DAB0293FF60D00A848DC /* GoogleService-Info.plist */; };
+		2729DAB4293FF75C00A848DC /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2729DAB3293FF75C00A848DC /* FirebaseAnalytics */; };
+		2729DAB6293FF75C00A848DC /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2729DAB5293FF75C00A848DC /* FirebaseAuth */; };
+		2729DAB8293FF75C00A848DC /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 2729DAB7293FF75C00A848DC /* FirebaseAuthCombine-Community */; };
+		2729DABA293FF75C00A848DC /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2729DAB9293FF75C00A848DC /* FirebaseFirestore */; };
+		2729DABC293FF75C00A848DC /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 2729DABB293FF75C00A848DC /* FirebaseFirestoreCombine-Community */; };
+		2729DABE293FF75C00A848DC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 2729DABD293FF75C00A848DC /* FirebaseFirestoreSwift */; };
+		2729DAC0293FF75C00A848DC /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2729DABF293FF75C00A848DC /* FirebaseStorage */; };
+		2729DAC2293FF75C00A848DC /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 2729DAC1293FF75C00A848DC /* FirebaseStorageCombine-Community */; };
+		27BF0D502954D9AC00E5CA1E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF0D4F2954D9AC00E5CA1E /* LoginView.swift */; };
+		27BF0D522954EF5300E5CA1E /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF0D512954EF5300E5CA1E /* SignupView.swift */; };
+		27BF0D542964AC2200E5CA1E /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF0D532964AC2200E5CA1E /* LoginViewModel.swift */; };
+		27BF0D562964B05900E5CA1E /* UIDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF0D552964B05900E5CA1E /* UIDModel.swift */; };
+		27BF0D592964B64400E5CA1E /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF0D582964B64400E5CA1E /* ProfilePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +71,24 @@
 		2729DA77293D458B00A848DC /* FrisbeeGolfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrisbeeGolfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2729DA7B293D458B00A848DC /* FrisbeeGolfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrisbeeGolfUITests.swift; sourceTree = "<group>"; };
 		2729DA7D293D458B00A848DC /* FrisbeeGolfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrisbeeGolfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2729DA8E293D474E00A848DC /* CurrentScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentScoreViewModel.swift; sourceTree = "<group>"; };
+		2729DA90293D4CE000A848DC /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		2729DA92293D517F00A848DC /* ScoresRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresRowView.swift; sourceTree = "<group>"; };
+		2729DA95293D51EF00A848DC /* HoleScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleScoreModel.swift; sourceTree = "<group>"; };
+		2729DA97293D747D00A848DC /* SaveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveData.swift; sourceTree = "<group>"; };
+		2729DA99293FA80300A848DC /* GameScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScoreModel.swift; sourceTree = "<group>"; };
+		2729DA9B293FADFB00A848DC /* GameScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScoreView.swift; sourceTree = "<group>"; };
+		2729DA9F293FAFF200A848DC /* GamePromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePromptView.swift; sourceTree = "<group>"; };
+		2729DAA1293FB12C00A848DC /* PreviousGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousGameView.swift; sourceTree = "<group>"; };
+		2729DAA4293FB20100A848DC /* PreviousGamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousGamesViewModel.swift; sourceTree = "<group>"; };
+		2729DAA7293FB37300A848DC /* GamesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesListView.swift; sourceTree = "<group>"; };
+		2729DAAA293FB3B000A848DC /* GameRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRowView.swift; sourceTree = "<group>"; };
+		2729DAB0293FF60D00A848DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27BF0D4F2954D9AC00E5CA1E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		27BF0D512954EF5300E5CA1E /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		27BF0D532964AC2200E5CA1E /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		27BF0D552964B05900E5CA1E /* UIDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDModel.swift; sourceTree = "<group>"; };
+		27BF0D582964B64400E5CA1E /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +96,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2729DAB4293FF75C00A848DC /* FirebaseAnalytics in Frameworks */,
+				2729DABA293FF75C00A848DC /* FirebaseFirestore in Frameworks */,
+				2729DAC2293FF75C00A848DC /* FirebaseStorageCombine-Community in Frameworks */,
+				2729DAB8293FF75C00A848DC /* FirebaseAuthCombine-Community in Frameworks */,
+				2729DABC293FF75C00A848DC /* FirebaseFirestoreCombine-Community in Frameworks */,
+				2729DAC0293FF75C00A848DC /* FirebaseStorage in Frameworks */,
+				2729DAB6293FF75C00A848DC /* FirebaseAuth in Frameworks */,
+				2729DABE293FF75C00A848DC /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,11 +147,14 @@
 		2729DA5E293D458A00A848DC /* FrisbeeGolf */ = {
 			isa = PBXGroup;
 			children = (
+				2729DA94293D51E200A848DC /* Models */,
+				2729DA8D293D473200A848DC /* ViewModels */,
+				2729DA8A293D465B00A848DC /* Views */,
 				2729DA5F293D458A00A848DC /* FrisbeeGolfApp.swift */,
-				2729DA61293D458A00A848DC /* ContentView.swift */,
 				2729DA63293D458B00A848DC /* Assets.xcassets */,
 				2729DA65293D458B00A848DC /* FrisbeeGolf.entitlements */,
 				2729DA66293D458B00A848DC /* Preview Content */,
+				2729DAB0293FF60D00A848DC /* GoogleService-Info.plist */,
 			);
 			path = FrisbeeGolf;
 			sourceTree = "<group>";
@@ -129,6 +184,93 @@
 			path = FrisbeeGolfUITests;
 			sourceTree = "<group>";
 		};
+		2729DA8A293D465B00A848DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27BF0D572964B63400E5CA1E /* ProfilePageViews */,
+				27BF0D4E2954D99800E5CA1E /* LoginViews */,
+				2729DAA6293FB34800A848DC /* PreviousGamesViews */,
+				2729DAA3293FB18C00A848DC /* CurrentGameViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2729DA8D293D473200A848DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2729DA8E293D474E00A848DC /* CurrentScoreViewModel.swift */,
+				2729DAA4293FB20100A848DC /* PreviousGamesViewModel.swift */,
+				27BF0D532964AC2200E5CA1E /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2729DA94293D51E200A848DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2729DA95293D51EF00A848DC /* HoleScoreModel.swift */,
+				2729DA97293D747D00A848DC /* SaveData.swift */,
+				2729DA99293FA80300A848DC /* GameScoreModel.swift */,
+				27BF0D552964B05900E5CA1E /* UIDModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2729DA9D293FAE7C00A848DC /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				2729DA90293D4CE000A848DC /* ScoresView.swift */,
+				2729DA92293D517F00A848DC /* ScoresRowView.swift */,
+			);
+			path = ComponentViews;
+			sourceTree = "<group>";
+		};
+		2729DAA3293FB18C00A848DC /* CurrentGameViews */ = {
+			isa = PBXGroup;
+			children = (
+				2729DA9D293FAE7C00A848DC /* ComponentViews */,
+				2729DA61293D458A00A848DC /* ContentView.swift */,
+				2729DA9B293FADFB00A848DC /* GameScoreView.swift */,
+				2729DA9F293FAFF200A848DC /* GamePromptView.swift */,
+			);
+			path = CurrentGameViews;
+			sourceTree = "<group>";
+		};
+		2729DAA6293FB34800A848DC /* PreviousGamesViews */ = {
+			isa = PBXGroup;
+			children = (
+				2729DAA9293FB38D00A848DC /* ComponentViews */,
+				2729DAA1293FB12C00A848DC /* PreviousGameView.swift */,
+			);
+			path = PreviousGamesViews;
+			sourceTree = "<group>";
+		};
+		2729DAA9293FB38D00A848DC /* ComponentViews */ = {
+			isa = PBXGroup;
+			children = (
+				2729DAA7293FB37300A848DC /* GamesListView.swift */,
+				2729DAAA293FB3B000A848DC /* GameRowView.swift */,
+			);
+			path = ComponentViews;
+			sourceTree = "<group>";
+		};
+		27BF0D4E2954D99800E5CA1E /* LoginViews */ = {
+			isa = PBXGroup;
+			children = (
+				27BF0D4F2954D9AC00E5CA1E /* LoginView.swift */,
+				27BF0D512954EF5300E5CA1E /* SignupView.swift */,
+			);
+			path = LoginViews;
+			sourceTree = "<group>";
+		};
+		27BF0D572964B63400E5CA1E /* ProfilePageViews */ = {
+			isa = PBXGroup;
+			children = (
+				27BF0D582964B64400E5CA1E /* ProfilePage.swift */,
+			);
+			path = ProfilePageViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +287,16 @@
 			dependencies = (
 			);
 			name = FrisbeeGolf;
+			packageProductDependencies = (
+				2729DAB3293FF75C00A848DC /* FirebaseAnalytics */,
+				2729DAB5293FF75C00A848DC /* FirebaseAuth */,
+				2729DAB7293FF75C00A848DC /* FirebaseAuthCombine-Community */,
+				2729DAB9293FF75C00A848DC /* FirebaseFirestore */,
+				2729DABB293FF75C00A848DC /* FirebaseFirestoreCombine-Community */,
+				2729DABD293FF75C00A848DC /* FirebaseFirestoreSwift */,
+				2729DABF293FF75C00A848DC /* FirebaseStorage */,
+				2729DAC1293FF75C00A848DC /* FirebaseStorageCombine-Community */,
+			);
 			productName = FrisbeeGolf;
 			productReference = 2729DA5C293D458A00A848DC /* FrisbeeGolf.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +369,9 @@
 				Base,
 			);
 			mainGroup = 2729DA53293D458A00A848DC;
+			packageReferences = (
+				2729DAB2293FF75C00A848DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 2729DA5D293D458A00A848DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +390,7 @@
 			files = (
 				2729DA68293D458B00A848DC /* Preview Assets.xcassets in Resources */,
 				2729DA64293D458B00A848DC /* Assets.xcassets in Resources */,
+				2729DAB1293FF60D00A848DC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +415,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27BF0D562964B05900E5CA1E /* UIDModel.swift in Sources */,
+				27BF0D592964B64400E5CA1E /* ProfilePage.swift in Sources */,
+				2729DA93293D517F00A848DC /* ScoresRowView.swift in Sources */,
+				2729DAAB293FB3B000A848DC /* GameRowView.swift in Sources */,
+				2729DAA5293FB20100A848DC /* PreviousGamesViewModel.swift in Sources */,
+				27BF0D502954D9AC00E5CA1E /* LoginView.swift in Sources */,
 				2729DA62293D458A00A848DC /* ContentView.swift in Sources */,
+				2729DAA0293FAFF200A848DC /* GamePromptView.swift in Sources */,
+				2729DAA8293FB37300A848DC /* GamesListView.swift in Sources */,
+				2729DA98293D747D00A848DC /* SaveData.swift in Sources */,
+				2729DAA2293FB12C00A848DC /* PreviousGameView.swift in Sources */,
+				2729DA9C293FADFB00A848DC /* GameScoreView.swift in Sources */,
+				27BF0D542964AC2200E5CA1E /* LoginViewModel.swift in Sources */,
+				2729DA91293D4CE000A848DC /* ScoresView.swift in Sources */,
+				2729DA8F293D474E00A848DC /* CurrentScoreViewModel.swift in Sources */,
+				27BF0D522954EF5300E5CA1E /* SignupView.swift in Sources */,
 				2729DA60293D458A00A848DC /* FrisbeeGolfApp.swift in Sources */,
+				2729DA9A293FA80300A848DC /* GameScoreModel.swift in Sources */,
+				2729DA96293D51EF00A848DC /* HoleScoreModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +606,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pezaris.FrisbeeGolf;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = I;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -469,6 +643,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pezaris.FrisbeeGolf;
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = I;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -604,6 +779,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2729DAB2293FF75C00A848DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2729DAB3293FF75C00A848DC /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2729DAB2293FF75C00A848DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		2729DAB5293FF75C00A848DC /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2729DAB2293FF75C00A848DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		2729DAB7293FF75C00A848DC /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2729DAB2293FF75C00A848DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		2729DAB9293FF75C00A848DC /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2729DAB2293FF75C00A848DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2729DABB293FF75C00A848DC /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2729DAB2293FF75C00A848DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		2729DABD293FF75C00A848DC /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2729DAB2293FF75C00A848DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		2729DABF293FF75C00A848DC /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2729DAB2293FF75C00A848DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		2729DAC1293FF75C00A848DC /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2729DAB2293FF75C00A848DC /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2729DA54293D458A00A848DC /* Project object */;
 }
